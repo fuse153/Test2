@@ -5,7 +5,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>도서관 좌석 정보</title>
+    <title>X_ShoppingMall</title>
     <meta name="description" content="This is a free Bootstrap landing page theme created for BootstrapZero. Feature video background and one page design." />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content="Codeply">
@@ -25,31 +25,17 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#first"><i class="ion-ios-analytics-outline"></i> 도서관 좌석 정보</a>
+                <a class="navbar-brand page-scroll" href="#first"><i class="ion-ios-analytics-outline"></i>X_ShoppingMall</a>
                 
             </div>
              <div class="bs-component">
-            <div class="navbar-collapse collapse" id="bs-navbar">
-                       	<div class="span3">
-            	<!-- Filter -->
-                <nav id="options" class="work-nav">
-                    <ul id="filters" class="option-set" data-option-key="filter">
-                    	<li class="type-work">Type of Work</li>
-                        <li><a href="#filter" data-option-value="*" class="selected">All Projects</a></li>
-                        <li><a href="#filter" data-option-value=".design">Design</a></li>
-                        <li><a href="#filter" data-option-value=".photography">Photography</a></li>
-                        <li><a href="#filter" data-option-value=".video">Video</a></li>
-                    </ul>
-                </nav>
-                <!-- End Filter -->
-            </div>
+          
                 <ul class="nav navbar-nav">
                     <li>
-                    
-                        <a class="page-scroll" href="#one">도서관 소개</a>
+                   			<a class="page-scroll" href="#one">쇼핑몰 소개</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#two">도서관 열람실</a>
+                        <a class="page-scroll" href="#two">쇼핑몰 </a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#three">Gallery</a>
@@ -59,6 +45,9 @@
                     </li>
                     <li>
                         <a class="page-scroll" href="#last">Contact</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="member">회원가입</a>
                     </li>
                 </ul>
                 
@@ -73,14 +62,14 @@
     <header id="first">
         <div class="header-content">
             <div class="inner">
-                <h1 class="cursive">Oh Da Hye, I love you..</h1>
+                <h1 class="cursive">X_ShoppingMall</h1>
                 <h4>A free landing page theme with video background</h4>
                 <hr>
                 <a href="#video-background" id="toggleVideo" data-toggle="collapse" class="btn btn-primary btn-xl">Toggle Video</a> &nbsp; <a href="#one" class="btn btn-primary btn-xl page-scroll">Get Started</a>
             </div>
         </div>
         <video autoplay="" loop="" class="fillWidth fadeIn wow collapse in" data-wow-delay="0.5s" poster="https://s3-us-west-2.amazonaws.com/coverr/poster/Traffic-blurred2.jpg" id="video-background">
-            <source src="https://s3-us-west-2.amazonaws.com/coverr/mp4/Traffic-blurred2.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
+            <source src="https://s3-us-west-2.amazonaws.com/coverr/mp4/Traffic-blurred2.mp4" type="video/mp45">Your browser does not support the video tag. I suggest you upgrade your browser.
         </video>
     </header>
     <section class="bg-primary" id="one">
