@@ -9,13 +9,25 @@
     <meta name="description" content="This is a free Bootstrap landing page theme created for BootstrapZero. Feature video background and one page design." />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content="Codeply">
-    <link rel="stylesheet" href="resources/bootstrap/css/bootstrap.min.css" />
+      <link rel="stylesheet" href="resources/bootstrap337/css/bootstrap.min.css" />
+	<!-- 부트스트렙에서 자바스크립트를 쓰려면, jquery도 있어야 함. jquery가 반드시 먼저, 임포트 -->
+	<script src="resources/bootstrap337/js/jquery-3.1.1.min.js"></script>
+	<script src="resources/bootstrap337/js/bootstrap.min.js"></script>
+	<script>
+		$(function() {
+			//alert("test...");
+			//버튼에 접근해 클릭했을때,
+			$("#btnPopup").click(function() {
+				$("#theModal").modal(); //자바스크립트에서 id로만 접근하는 방법과 같음.
+			});
+		});
+	</script>
+	<link rel="stylesheet" href="resources/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="resources/bootstrap/css/animate.min.css" />
     <link rel="stylesheet" href="resources/bootstrap/css/ionicons.min.css" />
     <link rel="stylesheet" href="resources/bootstrap/css/styles.css" />
   </head>
   <body>
-  
     <nav id="topNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -47,7 +59,7 @@
                         <a class="page-scroll" href="#last">Contact</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="member">회원가입</a>
+                       <button type="button" class="btn btn-info" id="btnPopup">Info</button>
                     </li>
                 </ul>
                 
@@ -59,6 +71,23 @@
             </div>
         </div>
     </nav>
+    <div class="modal fade" id="theModal" data-backdrop="static">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h3>모달 헤더</h3>
+							</div>
+							<div class="modal-body">
+								<p>본문 영역...</p>
+								<p>본문 영역...</p>
+								<p>본문 영역...</p>
+							</div>
+							<div class="modal-footer">
+								<button class="btn btn-primary" data-dismiss="modal">닫기</button>
+							</div>
+						</div>
+					</div>
+				</div>
     <header id="first">
         <div class="header-content">
             <div class="inner">

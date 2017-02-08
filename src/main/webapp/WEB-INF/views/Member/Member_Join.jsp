@@ -10,25 +10,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="stylesheet" href="resources/bootstrap/css/bootstrap.css" media="screen">
     <link rel="stylesheet" href="resources/bootstrap/css/custom.min.css">
+    <link rel="stylesheet" href="resources/bootstrap337/css/bootstrap.min.css" />
+	<!-- 부트스트렙에서 자바스크립트를 쓰려면, jquery도 있어야 함. jquery가 반드시 먼저, 임포트 -->
+	<script src="resources/bootstrap337/js/jquery-3.1.1.min.js"></script>
+	<script src="resources/bootstrap337/js/bootstrap.min.js"></script>
+	<script>
+	$(function(){
+		//alert("test...");
+		//버튼에 접근해 클릭했을때,
+		$("#btnPopup").click(function(){
+			$("#theModal").modal(); //자바스크립트에서 id로만 접근하는 방법과 같음.
+		});
+	});
+</script>
+
 </head>
 <body>
+<div class="container">
+		<!-- 하나의 행이 기준 -->
+		<div class="row">
+			<div class="col-md-9">
+				<!-- fade는 점점점 나타나고, 점점점 사라지는 효과 -->
+				<!-- id는 #으로 접근 class는 .으로 접근; data-backdrop="static"는 다른 화면 눌러도 모달창이 사라지지 않음. -->
+				<div class="modal fade" id="theModal" data-backdrop="static">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h3>모달 헤더</h3>
+							</div>
+							<div class="modal-body">
+								<p>본문 영역...</p>
+								<p>본문 영역...</p>
+								<p>본문 영역...</p>
+							</div>
+							<div class="modal-footer">
+								<button class="btn btn-primary" data-dismiss="modal">닫기</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<a href="#theModal" data-toggle="modal">모달 창 열기</a><br/>
+				<input type="button" value="모달창 열기" data-toggle="modal"
+					data-target="#theModal"/><br/>
+				<input type="button" value="모달창 열기" id="btnPopup"/>
+			</div>
+		</div>
+	</div>
+
+
+
  <!-- Forms
       ================================================== -->
       <div class="bs-docs-section">
         <div class="row">
-          <div class="col-lg-12">
-            <div class="page-header">
-              <h1 id="forms">Forms</h1>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
           <div class="col-lg-6">
             <div class="well bs-component">
-              <form class="form-horizontal">
+              <form action = "M_register" method = "post" class="form-horizontal">
                 <fieldset>
-                  <legend>Legend</legend>
+                  <legend>회원가입</legend>
                   <div class="form-group">
                     <label for="inputEmail" class="col-lg-2 control-label">Email</label>
                     <div class="col-lg-10">
@@ -39,11 +78,7 @@
                     <label for="inputPassword" class="col-lg-2 control-label">Password</label>
                     <div class="col-lg-10">
                       <input type="password" class="form-control" id="inputPassword" placeholder="Password">
-                      <div class="checkbox">
-                        <label>
-                          <input type="checkbox"> Checkbox
-                        </label>
-                      </div>
+                    
                     </div>
                   </div>
                   <div class="form-group">
@@ -99,62 +134,6 @@
                 </fieldset>
               </form>
             </div>
-          </div>
-          <div class="col-lg-4 col-lg-offset-1">
-
-              <form class="bs-component">
-                <div class="form-group">
-                  <label class="control-label" for="focusedInput">Focused input</label>
-                  <input class="form-control" id="focusedInput" type="text" value="This is focused...">
-                </div>
-
-                <div class="form-group">
-                  <label class="control-label" for="disabledInput">Disabled input</label>
-                  <input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled="">
-                </div>
-
-                <div class="form-group has-warning">
-                  <label class="control-label" for="inputWarning">Input warning</label>
-                  <input type="text" class="form-control" id="inputWarning">
-                </div>
-
-                <div class="form-group has-error">
-                  <label class="control-label" for="inputError">Input error</label>
-                  <input type="text" class="form-control" id="inputError">
-                </div>
-
-                <div class="form-group has-success">
-                  <label class="control-label" for="inputSuccess">Input success</label>
-                  <input type="text" class="form-control" id="inputSuccess">
-                </div>
-
-                <div class="form-group">
-                  <label class="control-label" for="inputLarge">Large input</label>
-                  <input class="form-control input-lg" type="text" id="inputLarge">
-                </div>
-
-                <div class="form-group">
-                  <label class="control-label" for="inputDefault">Default input</label>
-                  <input type="text" class="form-control" id="inputDefault">
-                </div>
-
-                <div class="form-group">
-                  <label class="control-label" for="inputSmall">Small input</label>
-                  <input class="form-control input-sm" type="text" id="inputSmall">
-                </div>
-
-                <div class="form-group">
-                  <label class="control-label">Input addons</label>
-                  <div class="input-group">
-                    <span class="input-group-addon">$</span>
-                    <input type="text" class="form-control">
-                    <span class="input-group-btn">
-                      <button class="btn btn-default" type="button">Button</button>
-                    </span>
-                  </div>
-                </div>
-              </form>
-
           </div>
         </div>
       </div>
