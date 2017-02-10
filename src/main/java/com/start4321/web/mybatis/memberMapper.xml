@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<!-- namespace는 다른 것과 구별하기 위해 반드시 기입해야 함. -->
+<mapper namespace="com.start4321.web.mybatis.memberMapper">
+	<select id="getIdPw" parameterType="Member" resultType="Member">
+		select * from member 
+		where email=#{email} and password=#{password}
+	</select>
+	
+	<insert id="insert" parameterType="Member">
+		insert into member(EMAIL,PASSWORD,NAME) values(#{email},#{password},#{name})
+	</insert>
+</mapper>
+
+
+
+
+<!-- 중간 연결을  하는 것을 'mapping'이라함 -->
