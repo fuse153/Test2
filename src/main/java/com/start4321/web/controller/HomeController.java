@@ -1,4 +1,4 @@
-package com.start4321.web;
+package com.start4321.web.controller;
 
 import java.text.DateFormat;
 import java.util.Date;

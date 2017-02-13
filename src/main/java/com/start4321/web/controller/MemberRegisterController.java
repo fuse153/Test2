@@ -1,4 +1,4 @@
-package com.start4321.web;
+package com.start4321.web.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,9 +14,16 @@ public class MemberRegisterController {
 	@RequestMapping(value = "/M_register", method = RequestMethod.POST)
 	public String Member_Register(Member res){
 		
-		// 회원 가입
-		memberManager.insert(res);
 		
-		return "MainView";
+		if(memberManager.select(res) == null)
+		{
+			System.out.println("중복된 값입니다.");
+			return "MainView";	
+		}
+		
+		else{
+			memberManager.insert(res);
+			return "MainView";
+		}
 	}
 }

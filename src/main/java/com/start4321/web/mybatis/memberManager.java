@@ -1,9 +1,9 @@
 package com.start4321.web.mybatis;
 
-import java.io.Reader;
+import java.io.Reader; 
 
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
+
 
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
@@ -32,9 +32,24 @@ public class memberManager {
 		}
 	}
 	
+	public static Member select(Member res){
+		Member mem = null;
+		SqlSession session = sqlSessionFactory.openSession();
+		
+		mem = session.selectOne("select", res);
+		
+		
+		if(mem != null){
+			// spring에서 제공하는 세션 저장 방식
+			return mem;	
+		}
+		else{
+			return null;
+		}
+	}
+	
 	public static void insert(Member res){
 		SqlSession session = sqlSessionFactory.openSession();
-		//System.out.println(res.getEmail());
 
 		session.insert("insert", res);
 		session.commit();

@@ -9,8 +9,13 @@
 		where email=#{email} and password=#{password}
 	</select>
 	
+	<select id="select" parameterType="Member" resultType="Member">
+		select * from member 
+		where email=#{email} and password=#{password}
+	</select>
+	
 	<insert id="insert" parameterType="Member">
-		insert into member(EMAIL,PASSWORD,NAME) values(#{email},#{password},#{name})
+		insert into member(EMAIL,PASSWORD,NAME) values(#{email},#{password},#{name}) 
 	</insert>
 </mapper>
 

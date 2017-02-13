@@ -54,23 +54,28 @@
                 
                 <ul class="nav navbar-nav navbar-right">
                 	
-     				<c:set var="name" value="${member.email}" />
+                	
+                	<!-- EL을 쓰고 싶을때는, '객체변수' 여야지만 가능 -->
+                	<!-- c:set의 변수는 페이지 컨텍스트에 저장됨. -->
+     				<c:set var="name" value="${USER_NAME}" scope="session" />
      				<c:choose>
                     	<c:when test="${empty name}">
                     	&nbsp;
-	                    <li>
+	                
+	                   <li>
 	                        <a class="page-scroll" data-toggle="modal" title="A free Bootstrap video landing theme" href="#member_joinModal"><button type="button" class="btn btn-primary">회원가입</button></a>
 	                    </li>
 	                    &nbsp;
 	                    <li>
 	                        <a class="page-scroll" data-toggle="modal" title="A free Bootstrap video landing theme" href="#loginModal"><button type="button" class="btn btn-primary">로그인</button></a>
 	                    </li>
+	                    
 	                    </c:when>
 	                    <c:otherwise>
 	                    <br>
 	                    &nbsp;
 	                    <li>
-	            			<button type="button" class="btn btn-primary">${member.email} 님 방문을 환영합니다.</button> &nbsp;&nbsp;	
+	            			<button type="button" class="btn btn-primary"> ${name} 님 방문을 환영합니다.</button> &nbsp;&nbsp;	
 	                    </li>
 	                   
 	                    <li>

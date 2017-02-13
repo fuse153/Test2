@@ -1,4 +1,4 @@
-package com.start4321.web;
+package com.start4321.web.controller;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -6,6 +6,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.util.WebUtils;
 
 import com.start4321.web.model.Member;
@@ -20,8 +21,6 @@ public class LoginController {
 	
 	public String memberLogin(@ModelAttribute Member mem, HttpServletRequest req ){
 		Member member  = memberManager.getIdPw(mem,req);
-		String id = (String)WebUtils.getSessionAttribute(req, "USER_NAME");
-		System.out.println(id);
 		return "MainView";
 	
 	}
