@@ -36,7 +36,7 @@
                     </li>
 
                     <li>
-                        <a  href="Man_shop">남자 쇼핑몰 </a>
+                        <a class="page-scroll" href="Man_shop">남자 쇼핑몰 </a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#three">Gallery</a>
@@ -141,7 +141,7 @@
         
         <video autoplay="" loop="" class="fillWidth fadeIn wow collapse in" data-wow-delay="0.5s" poster="https://s3-us-west-2.amazonaws.com/coverr/poster/Traffic-blurred2.jpg" id="video-background">
             <!-- <source src="https://s3-us-west-2.amazonaws.com/coverr/mp4/Traffic-blurred2.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser. -->
-            <source src="https://youtu.be/4EjkZxfCBMg" type="video/mp4">
+            <source src="" type="video/mp4">
         </video>
     </header>
     <section class="bg-primary" id="one">
@@ -193,7 +193,9 @@
             </div>
         </div>
     </section>
+    <center><h1 class="cursive"> 상품을 선택하세요 </h1></center>
     <section id="three" class="no-padding">
+    <br><br>
         <div class="container-fluid">
             <div class="row no-gutter">
                 <div class="col-lg-4 col-sm-6">
