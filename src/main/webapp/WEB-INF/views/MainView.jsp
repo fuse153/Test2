@@ -193,7 +193,7 @@
             </div>
         </div>
     </section>
-    <center><h1 class="cursive"> 상품을 선택하세요 </h1></center>
+    <h1 class="cursive"> 상품을 선택하세요 </h1>
     <section id="three" class="no-padding">
     <br><br>
         <div class="container-fluid">
@@ -553,12 +553,6 @@
 							</div>
 						</div>
 					</form>
-					
-					
-					
-
-
-
         	</div>
         </div>
         </div>

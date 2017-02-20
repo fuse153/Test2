@@ -35,6 +35,12 @@ public class HomeController {
 		
 		return "MainView";
 	}
+
+	@RequestMapping(value = "/home", method = RequestMethod.GET)
+	public String MainView() {
+
+		return "MainView";
+	}
 	
 }
 
