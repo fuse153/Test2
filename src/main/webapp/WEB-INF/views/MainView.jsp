@@ -36,7 +36,7 @@
                     </li>
 
                     <li>
-                        <a class="page-scroll" href="#two">쇼핑몰 </a>
+                        <a  href="Man_shop">남자 쇼핑몰 </a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#three">Gallery</a>
@@ -498,7 +498,7 @@
 						<div class="form-group">
 							<div class="col-sm-offset-2 col-sm-10">
 								<button type="submit" class="btn btn-default">Join Us</button>
-	        					<button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true"> Cancel </button>
+	        					<button class="btn btn-primary btn-lg " data-dismiss="modal" aria-hidden="true"> Cancel </button>
 							</div>
 						</div>
 					</form>
@@ -547,7 +547,7 @@
 						<div class="form-group">
 							<div class="col-sm-offset-2 col-sm-10">
 								<button type="submit" class="btn btn-default"> Login </button>
-								<button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true"> Cancel </button>
+								<button class="btn btn-primary btn-lg" data-dismiss="modal" aria-hidden="true"> Cancel </button>
 							</div>
 						</div>
 					</form>

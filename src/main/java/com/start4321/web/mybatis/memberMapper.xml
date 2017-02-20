@@ -11,7 +11,7 @@
 	
 	<select id="select" parameterType="Member" resultType="Member">
 		select * from member 
-		where email=#{email} and password=#{password}
+		where email=#{email} 
 	</select>
 	
 	<insert id="insert" parameterType="Member">

@@ -13,11 +13,11 @@ public class MemberRegisterController {
 	
 	@RequestMapping(value = "/M_register", method = RequestMethod.POST)
 	public String Member_Register(Member res){
+		Member mem = memberManager.select(res);
 		
-		
-		if(memberManager.select(res) == null)
+		if(mem != null)
 		{
-			System.out.println("중복된 값입니다.");
+			
 			return "MainView";	
 		}
 		
