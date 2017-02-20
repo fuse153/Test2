@@ -34,7 +34,7 @@
                     </li>
 
                     <li>
-                        <a class="page-scroll" href="Man_shop">남자 쇼핑몰 </a>
+                        <a class="page-scroll" href="Man_shop">남자 옷 </a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#three">Gallery</a>
@@ -190,3 +190,10 @@
         </div>
         </div>
     </div>
+    
+     <!--scripts loaded here -->
+    <script src="resources/bootstrap/js/jquery.min.js"></script>
+    <script src="resources/bootstrap/js/bootstrap.min.js"></script>
+    <script src="resources/bootstrap/js/jquery.easing.min.js"></script>
+    <script src="resources/bootstrap/js/wow.js"></script>
+    <script src="resources/bootstrap/js/scripts.js"></script>

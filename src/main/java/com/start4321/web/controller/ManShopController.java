@@ -10,7 +10,6 @@ public class ManShopController {
 	
 	@RequestMapping(value = "/Man_shop", method = RequestMethod.GET)
 	public String ManshopController(){
-		System.out.println("안녕");
 		return "man_shop/man_shop1";
 	}
 }
