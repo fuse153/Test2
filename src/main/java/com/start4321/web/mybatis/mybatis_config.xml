@@ -4,6 +4,7 @@
 	<typeAliases>
 		<!-- 별명으로 지명을 바꿈; -->
 		<typeAlias type="com.start4321.web.model.Member" alias="Member"/>
+		<typeAlias type="com.start4321.web.model.item" alias="item"/>
 		
 	</typeAliases>
 	

@@ -22,7 +22,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="home"><i class="ion-ios-analytics-outline"></i>X_ShoppingMall</a>
+                <a class="navbar-brand page-scroll" href="home">X_ShoppingMall</a>
                 
             </div>
              <div class="bs-component">
@@ -34,16 +34,14 @@
                     </li>
 
                     <li>
-                        <a class="page-scroll" href="Man_shop">남자 옷 </a>
+                        <a class="page-scroll" href="#last">문의 사항</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#three">Gallery</a>
+                        <a class="page-scroll" href="Man_shop">상품 구매</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#four">Features</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#last">Contact</a>
+                        <a class="page-scroll" href="item_history">주문 내역</a>
+                        <input type ="hidden" name="EMAIL" value="${USER_NAME}"/>
                     </li>
                     <li>
                        
@@ -191,9 +189,4 @@
         </div>
     </div>
     
-     <!--scripts loaded here -->
-    <script src="resources/bootstrap/js/jquery.min.js"></script>
-    <script src="resources/bootstrap/js/bootstrap.min.js"></script>
-    <script src="resources/bootstrap/js/jquery.easing.min.js"></script>
-    <script src="resources/bootstrap/js/wow.js"></script>
-    <script src="resources/bootstrap/js/scripts.js"></script>
+    

@@ -7,10 +7,10 @@
                 <div class="col-xs-6 col-sm-3 column">
                     <h4>Information</h4>
                     <ul class="list-unstyled">
-                        <li><a href="">Products</a></li>
-                        <li><a href="">Services</a></li>
-                        <li><a href="">Benefits</a></li>
-                        <li><a href="">Developers</a></li>
+                        <li><a href=""> 상품 </a></li>
+                        <li><a href=""> 서비스 </a></li>
+                        <li><a href=""> 복지 </a></li>
+                        <li><a href=""> 개발자</a></li>
                     </ul>
                 </div>
                 <div class="col-xs-6 col-sm-3 column">
@@ -43,7 +43,7 @@
                 </div>
             </div>
             <br/>
-            <span class="pull-right text-muted small"><a href="http://www.bootstrapzero.com">Landing Zero by BootstrapZero</a> ©2015 Company</span>
+            <span class="pull-right text-muted small"><a href=""> X_shoppingMall</a> ©2017 Company</span>
         </div>
     </footer>
     

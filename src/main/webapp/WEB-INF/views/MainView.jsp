@@ -49,15 +49,10 @@
 			</div>
 		</div>
 	</div>
-                <hr>
-                <a href="#video-background" id="toggleVideo" data-toggle="collapse" class="btn btn-primary btn-xl">Toggle Video</a> &nbsp; <a href="#one" class="btn btn-primary btn-xl page-scroll">Get Started</a>
             </div>
         </div>
         
-        <video autoplay="" loop="" class="fillWidth fadeIn wow collapse in" data-wow-delay="0.5s" poster="https://s3-us-west-2.amazonaws.com/coverr/poster/Traffic-blurred2.jpg" id="video-background">
-            <!-- <source src="https://s3-us-west-2.amazonaws.com/coverr/mp4/Traffic-blurred2.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser. -->
-            <source src="" type="video/mp4">
-        </video>
+        
     </header>
     <section class="bg-primary" id="one">
         <div class="container">
@@ -166,43 +161,14 @@
             </div>
         </div>
     </section>
-    <aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2 class="text-primary">Get Started</h2>
-                <a href="http://www.bootstrapzero.com/bootstrap-template/landing-zero" target="ext" class="btn btn-default btn-lg wow flipInX">Free Download</a>
-            </div>
-            <br>
-            <hr/>
-            <br>
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <div class="row">
-                        <h6 class="wide-space text-center">BOOTSTRAP IS BASED ON THESE STANDARDS</h6>
-                        <div class="col-sm-3 col-xs-6 text-center">
-                            <i class="icon-lg ion-social-html5-outline" title="html 5"></i>
-                        </div>
-                        <div class="col-sm-3 col-xs-6 text-center">
-                            <i class="icon-lg ion-social-sass" title="sass"></i>
-                        </div>
-                        <div class="col-sm-3 col-xs-6 text-center">
-                            <i class="icon-lg ion-social-javascript-outline" title="javascript"></i>
-                        </div>
-                        <div class="col-sm-3 col-xs-6 text-center">
-                            <i class="icon-lg ion-social-css3-outline" title="css 3"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </aside>
+ 
     <section id="last">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="margin-top-0 wow fadeIn">Get in Touch</h2>
+                    <h2 class="margin-top-0 wow fadeIn">문의 사항</h2>
                     <hr class="primary">
-                    <p>We love feedback. Fill out the form below and we'll get back to you as soon as possible.</p>
+                    <p>언제든지 문의 바랍니다.</p>
                 </div>
                 <div class="col-lg-10 col-lg-offset-1 text-center">
                     <form class="contact-form row">
