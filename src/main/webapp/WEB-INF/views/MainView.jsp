@@ -58,12 +58,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 text-center">
-                    <h2 class="margin-top-0 text-primary">Built On The Bootstrap Grid</h2>
+                    <h2 class="margin-top-0 text-primary">저희  X_shopping Mall 에 오신것을 환영합니다.</h2>
                     <br>
                     <p class="text-faded">
-                        Bootstrap's responsive grid comes in 4 sizes or "breakpoints": tiny (xs), small(sm), medium(md) and large(lg). These 4 grid sizes enable you create responsive layouts that behave accordingly on different devices.
+                      		저희 쇼핑몰은 현재 강남구 역삼동에 위치해 있고, 안파는 옷이 없을 정도로
+                      		많은 옷들이 구비 되어 있습니다.
+                      		많이 사시고, 복받으세요^^
                     </p>
-                    <a href="#three" class="btn btn-default btn-xl page-scroll">Learn More</a>
+                    
                 </div>
             </div>
         </div>
