@@ -20,7 +20,7 @@ public class ItemsController {
 		return "MainView";
 	}
 
-	@RequestMapping(value = "/item_history", method=RequestMethod.GET)
+	@RequestMapping(value = "/item_history", method=RequestMethod.POST)
 	public ModelAndView item_history(item items) throws SQLException{
 		
 		ModelAndView mv = new ModelAndView("mypage");

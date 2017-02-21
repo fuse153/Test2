@@ -21,7 +21,6 @@
 						</colgroup>
 						<thead>
 							<tr>
-								<th style="text-align : center;"><input type="checkbox" id="checkAll" value="check all" /></th>
 								<th style="text-align : center;">결제 일시</th>
 								<th style="text-align : center;">상품 분류</th>
 								<th style="text-align : center;">상품명</th>
@@ -44,7 +43,7 @@
 												<td>${item.getItem_kind()}</td>
 												<td>${item.getItem_name()}</td>
 												<td>${item.getItem_sum()}</td>
-										
+												
 											</tr>
 										</c:forEach>
 									</c:otherwise>
