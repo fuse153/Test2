@@ -1,6 +1,6 @@
 package com.start4321.web.controller;
 
-import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletRequest; 
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -28,11 +28,13 @@ public class LoginController {
 	@RequestMapping(value = "M_logout", method=RequestMethod.GET)
 	public String memberLogin(HttpServletRequest r){
 		
-		WebUtils.setSessionAttribute(r , "USER_NAME",null);
+		WebUtils.setSessionAttribute(r , "USER_NAME" , null);
+		
 		
 		return "MainView";
 		
 	}
+	
 	
 	
 }

@@ -43,7 +43,7 @@
                     <br>
                     <form action="item_history" method="post">	
                    		<button type="submit" class="btn btn-default"> 주문내역 </button>		                     
-                        <input type ="hidden" name="EMAIL" value="${USER_NAME}"/>
+                        <input type ="hidden" name="USER_NAME" value="${USER_NAME}"/>
                     </form>
                     </li>
                     <li>

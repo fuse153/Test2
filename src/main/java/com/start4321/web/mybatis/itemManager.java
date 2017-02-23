@@ -30,7 +30,7 @@ public class itemManager {
 	public static List getList(item items){
 		
 		System.out.println(items.getItem_kind());
-		System.out.println(items.getEMAIL());
+		System.out.println(items.getUSER_NAME());
 		List list = null;
 		SqlSession session = sqlSessionFactory.openSession();
 

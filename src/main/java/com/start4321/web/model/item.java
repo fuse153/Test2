@@ -6,7 +6,14 @@ public class item {
 	private String item_name;
 	private int item_sum;
 	private String pur_date;
-	private String EMAIL;
+	private String USER_NAME;
+	
+	public String getUSER_NAME() {
+		return USER_NAME;
+	}
+	public void setUSER_NAME(String uSER_NAME) {
+		USER_NAME = uSER_NAME;
+	}
 	private int count;
 
 	public int getCount() {
@@ -15,13 +22,8 @@ public class item {
 	public void setCount(int count) {
 		this.count = count;
 	}
-	public String getEMAIL() {
-		return EMAIL;
-	}
-	public void setEMAIL(String eMAIL) {
-		EMAIL = eMAIL;
-	}
-	public String getItem_kind() {
+	
+	public String getItem_kind() { 
 		return item_kind;
 	}
 	public void setItem_kind(String item_kind) {
