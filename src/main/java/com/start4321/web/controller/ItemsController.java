@@ -18,7 +18,6 @@ public class ItemsController {
 	
 	@RequestMapping(value = "/item_purchase", method=RequestMethod.POST)
 	public String items_purchase(item items){
-		
 	
 		itemManager.item_insert(items);
 		return "MainView";

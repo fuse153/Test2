@@ -45,7 +45,7 @@
 						</div>
                 </div>
                 <br><br><br><br><br><br><br><br>
-								<table class="table table-hover" >
+								<table class="table " >
 							<colgroup>
 								<col style="width: 30px;">
 								<col style="width: 100px;">
@@ -70,15 +70,21 @@
 					</tbody>
 						</table>
 						 <div class="col-lg-5 col-lg-offset-2">
-								<input type="text" name="count" value="" class="form-control" placeholder="수량을 입력해주세요.">
-								<br>
+							<!--  	<input type="text" name="count" value="" class="form-control" placeholder="수량을 입력해주세요."> -->
+								  <select name="count">
+									<option value="1">1개</option>
+									<option value="2">2개</option>
+									<option value="3">3개</option>
+									<option value="4">4개</option>
+								</select>
+																<br>
 							
 						</div>
 						<input type ="hidden" name="item_kind" value="남방"/>
 						<input type ="hidden" name="item_name" value="체크 남방"/>
 						<input type ="hidden" name="item_sum" value="24000"/>
 						<input type ="hidden" name="USER_NAME" value="${USER_NAME}"/>
-						 
+						
 						<div class="col-lg-5 col-lg-offset-3">
 								
 								<button type="submit" class="btn btn-default"> 결제 </button>

@@ -32,7 +32,6 @@
                     <li>
                    		<a class="page-scroll" href="#one">쇼핑몰 소개</a>
                     </li>
-
                     <li>
                         <a class="page-scroll" href="#last">문의 사항</a>
                     </li>
@@ -43,7 +42,7 @@
                    		<a class="page-scroll" href="item_history">주문 내역</a>
                     </li>
                     <li>
-                       
+                       <a class="page-scroll" href="item_history">고객 게시판</a>
                     </li>
                 </ul>
                 
