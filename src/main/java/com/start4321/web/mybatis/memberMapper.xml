@@ -19,10 +19,10 @@
 	</insert>
 
 	<insert id="item_insert" parameterType="item">
-		insert into items(EMAIL,item_kind,item_name,item_sum,pur_date) values(#{EMAIL},#{item_kind},#{item_name},#{item_sum}*#{count},now()) 
+		insert into items(EMAIL,item_kind,item_name,item_sum,pur_date) values(#{USER_NAME},#{item_kind},#{item_name},#{item_sum}*#{count},now()) 
 	</insert>
 	
-	<select id="getSearchList" parameterType="item" resultType="item">
+	<select id="getSearchList" resultType="item">
 		select * from items
 		 where email=#{EMAIL}
 	</select>

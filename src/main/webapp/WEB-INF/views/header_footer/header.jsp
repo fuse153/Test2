@@ -40,11 +40,7 @@
                         <a class="page-scroll" href="Man_shop">상품 구매</a>
                     </li>
                     <li>
-                    <br>
-                    <form action="item_history" method="post">	
-                   		<button type="submit" class="btn btn-default"> 주문내역 </button>		                     
-                        <input type ="hidden" name="USER_NAME" value="${USER_NAME}"/>
-                    </form>
+                   		<a class="page-scroll" href="item_history">주문 내역</a>
                     </li>
                     <li>
                        

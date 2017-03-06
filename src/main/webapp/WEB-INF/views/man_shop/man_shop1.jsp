@@ -77,7 +77,7 @@
 						<input type ="hidden" name="item_kind" value="남방"/>
 						<input type ="hidden" name="item_name" value="체크 남방"/>
 						<input type ="hidden" name="item_sum" value="24000"/>
-						<input type ="hidden" name="EMAIL" value="${USER_NAME}"/>
+						<input type ="hidden" name="USER_NAME" value="${USER_NAME}"/>
 						 
 						<div class="col-lg-5 col-lg-offset-3">
 								

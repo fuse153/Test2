@@ -7,14 +7,17 @@ public class item {
 	private int item_sum;
 	private String pur_date;
 	private String USER_NAME;
+	private int count;
+	
+	
 	
 	public String getUSER_NAME() {
 		return USER_NAME;
 	}
-	public void setUSER_NAME(String uSER_NAME) {
-		USER_NAME = uSER_NAME;
+	public void setUSER_NAME(String USER_NAME) {
+		this.USER_NAME = USER_NAME;
 	}
-	private int count;
+	
 
 	public int getCount() {
 		return count;
