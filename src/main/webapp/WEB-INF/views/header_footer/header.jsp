@@ -36,13 +36,13 @@
                         <a class="page-scroll" href="#last">문의 사항</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="Man_shop">상품 구매</a>
+                        <a class="page-scroll" href="item_purchase">상품 구매</a>
                     </li>
                     <li>
                    		<a class="page-scroll" href="item_history">주문 내역</a>
                     </li>
                     <li>
-                       <a class="page-scroll" href="item_history">고객 게시판</a>
+                       <a class="page-scroll" href="">고객 게시판</a>
                     </li>
                 </ul>
                 

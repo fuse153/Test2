@@ -26,7 +26,7 @@ public class ItemsController {
 	@RequestMapping(value = "/item_history", method=RequestMethod.GET)
 	public ModelAndView item_history(HttpServletRequest req , item items) throws SQLException{
 		String email = (String)WebUtils.getSessionAttribute(req , "USER_NAME");
-		ModelAndView mv = new ModelAndView("mypage");
+		ModelAndView mv = new ModelAndView("item_history");
 		mv.addObject("item", itemManager.getList(email));
 		return mv;
 	}
