@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="resources/bootstrap/css/styles.css" />
   </head>
   <body>
+
     <nav id="topNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -42,7 +43,7 @@
                    		<a class="page-scroll" href="item_history">주문 내역</a>
                     </li>
                     <li>
-                       <a class="page-scroll" href="">고객 게시판</a>
+                       <a class="page-scroll" href="home">고객 게시판</a>
                     </li>
                 </ul>
                 
@@ -57,11 +58,11 @@
                     	&nbsp;
 	                
 	                   <li>
-	                        <a class="page-scroll" data-toggle="modal" title="A free Bootstrap video landing theme" href="#member_joinModal"><button type="button" class="btn btn-primary">회원가입</button></a>
+	                        <a class="page-scroll" data-toggle="modal" href="#member_joinModal"><button type="button" class="btn btn-primary">회원가입</button></a>
 	                    </li>
 	                    &nbsp;
 	                    <li>
-	                        <a class="page-scroll" data-toggle="modal" title="A free Bootstrap video landing theme" href="#loginModal"><button type="button" class="btn btn-primary">로그인</button></a>
+	                        <a class="page-scroll" data-toggle="modal" href="#loginModal"><button type="button" class="btn btn-primary">로그인</button></a>
 	                    </li>
 	                    
 	                    </c:when>

@@ -13,10 +13,8 @@
         <div class="container text-center">
             <div class="call-to-action">
                 <h2 class="text-primary">셔츠</h2>
-                <!-- a href="http://www.bootstrapzero.com/bootstrap-template/landing-zero" target="ext" class="btn btn-default btn-lg wow flipInX">당신의 집사</a> -->
             </div>
             <br>
-            <hr/>
             <br>
             <form action="item_purchase" method ="post">
             <div class="row">

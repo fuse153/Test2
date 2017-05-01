@@ -47,6 +47,7 @@
         </div>
     </footer>
     
+    
   <!--scripts loaded here -->
     <script src="resources/bootstrap/js/jquery.min.js"></script>
     <script src="resources/bootstrap/js/bootstrap.min.js"></script>

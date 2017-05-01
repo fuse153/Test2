@@ -1,9 +1,7 @@
 <%@ page contentType="text/html; charset=utf-8" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ page session="true" %>
-<!DOCTYPE html>
-<html>
-  <head>
+
    <%@ include file="/WEB-INF/views/header_footer/header.jsp"%>
 
     <header id="first">
