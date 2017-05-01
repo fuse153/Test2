@@ -199,11 +199,6 @@
     </section>
    
 
-     
-  
-    
-    
-    
     <div id="alertModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-sm">
         <div class="modal-content">
